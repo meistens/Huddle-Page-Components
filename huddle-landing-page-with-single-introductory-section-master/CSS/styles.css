@@ -22,6 +22,7 @@ body {
   background-repeat: no-repeat;
   padding: 2rem;
   background-size: contain;
+  min-height: 100vh;
 }
 
 nav {
@@ -62,7 +63,7 @@ section img {
 .btn a {
   display: inline-block;
   padding: 0.5rem 5rem;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   background: white;
   color: var(--primary-color);
   text-decoration: none;

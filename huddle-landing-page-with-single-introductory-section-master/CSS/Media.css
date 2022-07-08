@@ -1,9 +1,46 @@
+/* custom styles for specific devices under here */
+
+/* iPhone 12 Pro Max */
+@media screen and (width: 428px) {
+   .btn a{
+      margin: 3rem 0;
+   }
+}
+
+/* iPad Pro portrait and landscape, iPad Air landscape and 1024 monitors clashing styles to be reviewed */
+
+/* END */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+
+   nav{
+      margin-bottom: 10rem;
+   }
+
+   section img{
+      display: initial;
+   }
+
+   .gridTwo{
+      margin-top: 6rem
+   }
+
+   .gridTwo p{
+      padding: 0 7.8rem;
+      line-height: 2;
+      font-size: x-large;
+   }
+}
+
+
+
+
 @media  screen and (min-width: 1024px) and (max-width: 1440px) {
    body{
       background: url(../images/bg-desktop.svg);
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 100vh;
       background-position: center;
       padding: 4rem 2rem;
    }
